@@ -19,7 +19,7 @@ Lastly, once I was done I pushed all the updates to my remote repository from my
 ## Usage
 
 ```md
-    ![alt text](starter/assets/images/presentation1.png)
+    ![alt text](starter/css/images/Deployed-Portfolio.svg)
     ```
 
 ## Credits
