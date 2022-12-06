@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+:root {
+  --font: 'Montserrat', sans-serif;
+  --color: #ECF0F1;
+  --margin: 5px;
+  --cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font)
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+
+p {
+  margin: 0;
+}
+
+section {
+  display: inline-block;
+}
+
+#personal-info a:hover {
+  color: blue;
+}
+
+#personal-info a:visited {
+  /* 
+  color: red;
+  */
+}
+
+#navigation {
+  display: flex;
+  background-color: #36454F;
+  justify-content: space-between;
+  align-content: center;
+  height: 15vh;
+}
+
+/* Google Font used */
+#name {
+  font-family: 'Montserrat', sans-serif;
+  color: #36454F;
+  margin-left: 24px;
+  border: 2px solid var(--color);
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: var(--color);
+  align-items: center;
+}
+
+/* anchor links in header */
+#personal-info {
+  display: flex;
+  align-items: center;
+}
+
+/* creates space between each link */
+#personal-info a {
+  margin: 0px 10px;
+  font-family: var(--font);
+  color: var(--color);
+  font-size: 20px;
+  align-items: center;
+}
+
+#personal-info :nth-child(4) {
+  /* Create space between last anchor and margin */ 
+  margin-right: 40px;
+}
+
+/*  banner section */
+.hero-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #EFEEEE;
+  align-items: center;
+  background-image: url("../images/backgroundurl.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  height: 30vh;
+}
+
+/* heading nested into banner section */
+#profile-sub {
+color: #000;
+font-size: 20px;
+font-family: var(--font);
+margin-left: 25px;
+}
+
+#about {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "about-title about-me"
+  ;
+  margin: 25px;
+}
+
+#about-title {
+  grid-area: about-title;
+  margin: 0px;
+  font-size: 30px;
+}
+
+#about-me {
+  grid-area: about-me;
+}
+
+#about-me p {
+  color: #000;
+}
+
+#work {
+  margin: 25px;
+  display: grid;
+  grid-template-columns: 20% 40% 40%;
+  grid-template-rows: repeat(4, 1fr);
+  height: 70vh;
+  grid-template-areas: 
+  "section-name project-1 project-1"
+  "section-name project-1 project-1"
+  "section-name project-2 project-3"
+  "section-name project-4 project-5";
+}
+
+#contact {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "contact social-links"
+  ;
+  align-items: center;
+  margin: 25px;
+  font-size: 22px;
+}
+
+
+/* Footer links to social */
+.page-section.contact a {
+  margin: 20px;
+  font-family: var(--font);
+  color: #000;
+  font-size: 20px;
+}
+
+/* color switches to blue ocne user hovers */
+.page-section.contact a:hover {
+  color: blue;
+}
+
+#contact {
+  margin-left: 24px;
+  font-family: var(--font);
+}
+
+#section-name {
+  grid-area: section-name;
+  font-size: 30px;
+}
+
+.page-section {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#project-1 {
+  grid-area: project-1;
+  background-image: url(../images/Picture1.svg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #36454F;
+  margin: var(--margin);
+  cursor: var(--cursor)
+}
+
+#project-2 {
+  grid-area: project-2;
+  background-image: url(../images/project2.svg);
+  background-position: top;
+  background-size: cover;
+  border: 2px solid #36454F;
+  margin: var(--margin);
+  cursor: var(--cursor)
+}
+
+#project-3 {
+  grid-area: project-3;
+  background-image: url(../images/project3.svg);
+  background-position: top;
+  background-size: cover;
+  border: 2px solid #36454F;
+  margin: var(--margin);
+  cursor: var(--cursor)
+}
+
+#project-4 {
+  grid-area: project-4;
+  background-image: url(../images/project4.svg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #36454F;
+ margin: var(--margin);
+ cursor: var(--cursor)
+}
+
+#project-5 {
+  grid-area: project-5;
+  background-image: url(../images/project-5.svg);
+  background-position: top;
+  background-size: cover;
+  border: 2px solid #36454F;
+  margin: var(--margin);
+  cursor: var(--cursor)
+}
