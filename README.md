@@ -16,11 +16,10 @@ Afterwards, I used vscode which is an integrated development environment which a
 
 Lastly, once I was done I pushed all the updates to my remote repository from my local repo using commits, and once I was happy I deployed the changes to the live website.
 
-## Usage
+## Screenshot
 
-```md
-    ![alt text](starter/css/images/Deployed-Portfolio.svg)
-    ```
+![image](https://user-images.githubusercontent.com/117359873/216346693-976eb603-d9de-4f1e-b2b2-370028800089.png)
+
 
 ## Credits
 
@@ -28,7 +27,7 @@ I used 'Slack' for support - https://slack.com/intl/en-gb
 
 ## License
 
-Please refer to the LICENSE in the repo.
+Mit license
 
 ## Features
 
