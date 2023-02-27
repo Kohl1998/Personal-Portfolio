@@ -27,7 +27,7 @@ I used 'Slack' for support - https://slack.com/intl/en-gb
 
 ## License
 
-Mit license
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Features
 
